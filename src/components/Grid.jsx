@@ -7,16 +7,20 @@ function Grid() {
 
     const gridStyle = {
         display: 'grid',
-        gridTemplateColumns: 'repeat(3, 20px)',
-        gridTemplateRows: 'repeat(3, 20px)',
-        gap: '200px',
+        gridTemplateColumns: 'repeat(3, 170px)',
+        gridTemplateRows: 'repeat(3, 170px)',
+        gap: '30px',
         justifyContent: 'center',
         alignContent: 'center',
-        margin: '50px auto'
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        marginTop: '70px'
     }
 
     return (
-        <div style={gridStyle}> 
+        <div className='grid' style={gridStyle}> 
             {tiles.map((tileIndex) => (
                 <Tile 
                 key={tileIndex}
