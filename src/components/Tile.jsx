@@ -6,7 +6,7 @@ function Tile({ onPress, active = false }) {
     border: active ? 'none' : '2px solid silver',
     backgroundColor: active ? '#ec7a1c' : 'transparent',
     cursor: 'pointer',
-    transition: 'background-color 0.2s ease, transform 0.1s ease',
+    transition: 'background-color 0.2s ease, transform 0.1s ease'
   };
 
   const handleMouseDown = (e) => {

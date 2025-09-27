@@ -16,7 +16,7 @@ function Grid() {
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        marginTop: '70px'
+        marginTop: '100px'
     }
 
     return (
@@ -29,7 +29,7 @@ function Grid() {
                 />
             ))}
         </div>
-    )
+    ) 
     
 }
 export default Grid

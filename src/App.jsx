@@ -1,4 +1,4 @@
-import Grid from './components/Grid'
+import Main from './components/Main'
 import Header from './components/Header'
 
 
@@ -6,9 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <Grid 
-      
-      />
+      <Main /> 
     </>
   )
 }
